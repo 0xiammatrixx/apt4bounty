@@ -8,7 +8,7 @@ import MyNFTs from "./pages/MyNFTs";
 import { AptosClient } from "aptos";
 import { useWallet } from "@aptos-labs/wallet-adapter-react";
 
-const client = new AptosClient("https://fullnode.devnet.aptoslabs.com/v1");
+const client = new AptosClient("https://fullnode.testnet.aptoslabs.com/v1");
 const marketplaceAddr = "0x57f991ad76f092d2413f66352fbb7e991fc3c257285e509bd9b9f23b916a2c46";
 
 function App() {
